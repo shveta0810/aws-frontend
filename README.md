@@ -1,16 +1,85 @@
-# React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# GitHub Clone 🚀
 
-Currently, two official plugins are available:
+![MERN](https://img.shields.io/badge/Stack-MERN-green)  
+![React](https://img.shields.io/badge/Frontend-React-blue)  
+![Node](https://img.shields.io/badge/Backend-Node.js-brightgreen)  
+![MongoDB](https://img.shields.io/badge/Database-MongoDB-darkgreen)  
+![License](https://img.shields.io/badge/License-Educational-orange)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+A full‑stack **GitHub Clone** built using the **MERN Stack (MongoDB, Express, React, Node.js)**. This project replicates core GitHub features such as authentication, repositories, and collaboration tools, designed for learning full‑stack development and system design concepts.
 
-## React Compiler
+---
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## ✨ Key Features
 
-## Expanding the ESLint configuration
+### 🔐 Authentication & User System
+- User Signup & Login with JWT Authentication  
+- Secure password hashing using bcrypt  
+- User profiles with bio and repository list  
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### 📁 Repository Management
+- Create and delete repositories  
+- Public and private repository support  
+- Repository metadata (name, description, owner)  
+
+### 🤝 Collaboration
+- Add collaborators to repositories  
+- Real‑time updates using Socket.IO  
+- Simulated commit and version history  
+
+### 📂 Code & File Handling
+- File upload and management  
+- Folder and file browsing UI similar to GitHub  
+
+### 🎨 Frontend UI
+- GitHub‑like dashboard layout  
+- Responsive design for desktop and mobile  
+- Clean and modern UI using Material UI / Tailwind CSS  
+
+---
+
+## 🛠️ Tech Stack & Tools
+
+### Frontend
+- React.js
+- React Router DOM
+- Vite
+- Material UI (MUI)
+- CSS Modules / Tailwind CSS
+
+### Backend
+- Node.js
+- Express.js
+- MongoDB & Mongoose
+- JWT (JSON Web Tokens)
+- Socket.IO
+
+### Developer Tools
+- Git & GitHub
+- Postman
+- MongoDB Atlas
+- Render / Vercel / Netlify (Deployment)
+- AWS S3 (Optional for file storage)
+
+---
+
+## 🚀 Future Enhancements
+- Pull Requests and Merge System  
+- Issues & Discussions Feature  
+- Star, Fork, and Watch system  
+- Code diff viewer (like real GitHub)  
+- Organizations & Team Management  
+- CI/CD workflow simulation  
+
+---
+
+## 👩‍💻 Author
+**Shveta**  
+MERN Stack Developer | Aspiring Software Engineer at Google
+
+---
+
+## 📜 Disclaimer
+This project is built for educational purposes only and is not affiliated with or endorsed by GitHub.
+```
