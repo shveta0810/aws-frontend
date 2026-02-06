@@ -1,0 +1,72 @@
+.create-repo-wrapper {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(135deg, #0d1117, #161b22);
+  color: white;
+}
+
+.repo-card {
+  background: #161b22;
+  border: 1px solid #30363d;
+  padding: 30px;
+  width: 400px;
+  border-radius: 12px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+}
+
+.repo-card h2 {
+  margin-bottom: 20px;
+  font-size: 22px;
+  text-align: center;
+  color: #58a6ff;
+}
+
+.repo-card input,
+.repo-card textarea {
+  width: 100%;
+  padding: 10px;
+  background: #0d1117;
+  border: 1px solid #30363d;
+  border-radius: 6px;
+  color: white;
+  margin-bottom: 12px;
+  outline: none;
+}
+
+.repo-card input:focus,
+.repo-card textarea:focus {
+  border-color: #58a6ff;
+}
+
+.repo-card textarea {
+  resize: none;
+  height: 80px;
+}
+
+.visibility-box {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px 0;
+  font-size: 14px;
+}
+
+.visibility-box label {
+  cursor: pointer;
+}
+
+.repo-card button {
+  width: 100%;
+  padding: 12px;
+  background: #238636;
+  border: none;
+  border-radius: 6px;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.repo-card button:hover {
+  background: #2ea043;
+}
